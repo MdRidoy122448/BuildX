@@ -189,6 +189,21 @@ p{
 }
 /* News section end */
 
+/* Copyright section start */
+.copyright-section{
+    background-color: var(--gray);
+}
+.copyright-section li a{
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.copyright-section li a:hover{
+    color: var(--yellow);
+    text-decoration: underline;
+}
+/* Copyright section end  */
+
 /* Responsive CSS  start*/
 @media (max-width: 991){
     
